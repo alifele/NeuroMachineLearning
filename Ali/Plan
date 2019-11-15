@@ -1,0 +1,65 @@
+------------------------------------
+Data extaction and evaluation + draft ---> 3-4 weeks
+	1 week --> presentation
+	'''
+	1.making semi takhasos ha
+	2.Knowing the ADNI
+	
+	PET --> Me, Elahe   			'Done'
+	MRI --> Zahra, Sina			'Done'
+	Demo --> Ftima				'Not Done'
+	Biomarker --> Mahdie, Abolfazl		'Done' --> ""more information is needed"" -->time series+important biomarkers+
+	Function Test --> Azadeh, Mahshad	'Done' --> MMSE  + ADAS + CDR (Scored based)((Decision Tree)) "Time series"
+
+	''' 
+	General Evaluation --> 3+4+4+4+3+5+4
+
+	Problems:
+	1.access problem ----> almost solved
+	2.low attendancy ----> we hope to be solved + urgent meeting + No fatima! 
+------------------------------------------------------------------------------------------------------------------------
+	2 week --> Visualization
+	'''
+	1.PET with MRI or NOT?
+	2.Provide Sample data (Git hub)
+	3.Visualization (Computation Group)
+	4.Preparing the Draft  --> Fatima
+	5.Preprocessing Softwares (Computational Group)
+	6.ADNI and R language --> for ME 
+	7.changing the meeting time
+	'''
+	
+	rest --> visual + eval + draft
+------------------------------------
+Preprocessing + Generating NData ---> 4 weeks may + 2 weeks
+	1 week ---> discussion on areas
+	rest ---> software and extarct + time series + Ndata of biomarkers
+------------------------------------
+Building model ---> 8 weeks
+	finding suitable models
+	try and error
+	Low data machine learning	
+------------------------------------
+Training the models ---> 2 weeks
+	using the comupter power
+	+ CERN
+	+ Sharif cluster
+	+ 'julia' for parallel processing
+------------------------------------
+Evaluating the models ---> 5 weeks
+	playing with the hyper parameters
+------------------------------------
+Statistical analysis ---> 5 weeks
+	Rahimi tabar + unusual analysis
+	usual analysis (discuss)
+------------------------------------
+General evaluation ---> 2 weeks
+	support 
+	ploting 
+	start of writing
+------------------------------------
+
+
+
+
+
