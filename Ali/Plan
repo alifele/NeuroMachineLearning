@@ -8,7 +8,8 @@ Data extaction and evaluation + draft ---> 3-4 weeks
 	PET --> Me, Elahe   			'Done'
 	MRI --> Zahra, Sina			'Done'
 	Demo --> Ftima				'Not Done'
-	Biomarker --> Mahdie, Abolfazl		'Done' --> ""more information is needed"" -->time series+important biomarkers+
+	Biomarker --> Mahdie, Abolfazl		'Done' --> ""more information is needed"" 
+	-->time series+important biomarkers+
 	Function Test --> Azadeh, Mahshad	'Done' --> MMSE  + ADAS + CDR (Scored based)((Decision Tree)) "Time series"
 
 	''' 
@@ -21,12 +22,14 @@ Data extaction and evaluation + draft ---> 3-4 weeks
 	2 week --> Visualization
 	'''
 	1.PET with MRI or NOT?
-	2.Provide Sample data (Git hub)
+	2.Provide Sample data (Github) --> 10 subjects  #thursday#
 	3.Visualization (Computation Group)
 	4.Preparing the Draft  --> Fatima
 	5.Preprocessing Softwares (Computational Group)
 	6.ADNI and R language --> for ME 
-	7.changing the meeting time
+Done    7.changing the meeting time  --> ********22:01********
+	8.the mothod of the proposal + limitations (Computational + data (time series etc.) + 	intrinsic)
+	9.Every one, one ADNI accout
 	'''
 	
 	rest --> visual + eval + draft
