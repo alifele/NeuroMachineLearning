@@ -9,21 +9,34 @@ to set the env, every time that you open a terminal to use the freesurfer you sh
 export FREESURFER_HOME=/home/ali/Programms/freesurfer
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 '''
-
-
 but if you want not to write these two lines every time you can add it to the .bashrc file:
 Open the terminal and write:
 '''
 gedit ~/.bashrc
 '''
-
 and then add the mentioned lines to the end of that file and then save it.
+
 
 if you do the steps successfully you should see this massage at every startup of terminal:
 
 Setting up environment for FreeSurfer/FS-FAST (and FSL)
-FREESURFER_HOME /usr/local/freesurfer
-FSFAST_HOME     /usr/local/freesurfer/fsfast
-FSF_OUTPUT_FORMAT nii
-SUBJECTS_DIR    /usr/local/freesurfer/subjects
-MNI_DIR         /usr/local/freesurfer/mni
+-------- freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0-2beb96c --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /home/ali/Programms/freesurfer
+FSFAST_HOME       /home/ali/Programms/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /home/ali/Programms/freesurfer/subjects
+MNI_DIR           /home/ali/Programms/freesurfer/mni
+
+
+Always take care of the env var ie. 'SUBJECT_DIR'. It is set to /home/ali/Programms/freesurfer/subjects by default.
+but it must be the directory that you want to proccess the data. 
+you can set it to the curren directory (working direcory) by the followin code:
+'''
+setenv SUBJECT_DIR 'pwd'
+'''
+you can check the var by using the ''' echo SUBJECT_DIR ''' command
+
+
+
+
