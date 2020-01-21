@@ -1,0 +1,29 @@
+after installation you need to setup the env. for the freesurfer.
+
+
+for example suppose that I have installed the freesurfer in the following directory : /home/ali/Programms
+
+
+to set the env, every time that you open a terminal to use the freesurfer you should write these two lines in terminal:
+'''
+export FREESURFER_HOME=/home/ali/Programms/freesurfer
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
+'''
+
+
+but if you want not to write these two lines every time you can add it to the .bashrc file:
+Open the terminal and write:
+'''
+gedit ~/.bashrc
+'''
+
+and then add the mentioned lines to the end of that file and then save it.
+
+if you do the steps successfully you should see this massage at every startup of terminal:
+
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME /usr/local/freesurfer
+FSFAST_HOME     /usr/local/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii
+SUBJECTS_DIR    /usr/local/freesurfer/subjects
+MNI_DIR         /usr/local/freesurfer/mni
