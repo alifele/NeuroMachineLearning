@@ -35,7 +35,7 @@ you can set it to the curren directory (working direcory) by the followin code:
 '''
 setenv SUBJECT_DIR 'pwd'
 '''
-you can check the var by using the ''' echo SUBJECT_DIR ''' command
+you can check the var by using the ''' echo $SUBJECT_DIR ''' command
 
 
 
